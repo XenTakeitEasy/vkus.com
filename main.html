@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Вкусь</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  span { 
+    color: rgb(249, 249, 249);
+   }
+ </style>
+    </head>
+<body>
+  <blockquote><h1><span>Кафе</span></h1></blockquote>
+    <blockquote>
+  <p><a href="aboutus.html"><img src="photos\logo.jpg"  title="о нас" alt ="Logo" width="550"></a></p>
+</blockquote>
+<marquee loop="3">Добро пожаловать! You are welcome! Ben arrivato! Soyez le bienvenu! Bienvenidos!</marquee>
+<blockquote>
+<div class="textcols">
+	<div class="textcols-row">
+		<div class="textcols-item">
+    <h2><a href = "breakfast.html" style="text-decoration: none"><span>Завтрак</span></a></h2>
+    <h2><span>Ланч</span></h2>
+    <h2>Основное</h2>
+    <h2>Горячее</h2>
+    <h2>Фуршет</h2>
+    <blockquote>
+</div>
+	<div class="textcols-item">
+	<h2>Шаурма</h2>
+  <h2>Cендвичи</h2>
+  <h2>Паста</h2>
+  <h2>Пицца</h2>
+  <h2><a href = "drinks.html" style="text-decoration: none"><span>Напитки</span></a></h2>
+</div>
+</blockquote>
+  <br>
+  <hr>
+  <footer>
+  <div class="textcols">
+    <div class="textcols-row">
+      <div class="textcols-item">
+      <dl>
+      <dd><p><h3>Наши контакты:</h3></p></dd>
+      <dd><p><a href="https://api.whatsapp.com/send/?phone=79006940860&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%0A%0A%D0%9F%D0%B8%D1%88%D1%83+%D0%B8%D0%B7+%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F+2%D0%93%D0%98%D0%A1.%0A%0A&type=phone_number&app_absent=0" title="свяжитесь с нами" target="_blank" style="text-decoration: none; color:rgb(245, 245, 245)">Телефон: +7 900 694-08-60</a></p></dd>
+      <dd><p><a href="mailto:kafevkus@yandex.ru?subject=Заказ&body=Добрый%20день!" target="_blank" style="text-decoration: none; color:rgb(245, 245, 245)"title="напишите нам">Email: kafevkus@yandex.ru</a></p></dd>
+      <dd><p>Работаем Пн-Пт 10<sup>00</sup> - 19<sup>00</sup></p></dd>
+      <dd><p><a href="how2find.html" style="text-decoration: none; color:rgb(245, 245, 245)" title="как нас найти">Брянск, ул. Емлютина, 34</a></p></dd>
+      <br>
+      <dd><p><h3>Мы в соцсетях:</h3></p><ul>
+        <li><a href="https://vk.com/vkus_32" target="_blank" style="text-decoration: none; color:rgb(28, 46, 202)">Вконтакте</a></li>
+        <li><a href="https://t.me/vkuscafe" target="_blank" style="text-decoration: none; color:rgb(231, 28, 150)">Telegram</a></li>
+        <li><a href="https://instagram.com/vkus.cafe" target="_blank" style="text-decoration: none; color:rgb(43, 193, 85)">Instagram</a></li>
+      </ul></dd>
+      <br>
+    </dl>
+    </div>
+    <div>
+      <dl>
+         <form action="textarea1.php" method="post">
+          <p><h3>Форма для вашего заказа:</h3></p>
+          <p><textarea rows="7" cols="48" name="text"></textarea></p>
+          <p><input type="submit" value="Отправить"> 
+            <!--"mailto:kafevkus@yandex.ru?subject=Заказ&body=Добрый%20день!"-->
+          <script>
+            <button onclick="download(this)">Отправить</button>
+            function download(button) {
+              button.textContent = 'Отправляется...';
+              setTimeout(()=>button.textContent="Отправлено!",3000);
+            }
+           </p> 
+          </script>
+        </form>
+        <br>
+        <p><h3>Закажи Вкусь через сервисы:</h3></p>
+      <p><button><a href="https://eda.yandex/restaurant/vkus_emlyutina_34" target="_blank"style="text-decoration: none; color:rgb(7, 7, 7) align="center"">Яндекс.Еда</a></button></p>
+      <p><button><a href="https://www.delivery-club.ru/r/vkus_samnv" target="_blank" style="text-decoration: none;color:rgb(7, 7, 7)">Delivery Club</a></button></p>
+      </dl>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

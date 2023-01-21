@@ -1,0 +1,55 @@
+body {
+  background-color: #6f1e3e;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 10px dotted #b40c56;
+  padding: 50px 50px 50px 5px;
+  font-family: Trebuchet MS;
+  color: #faf3f6;
+  font-size: 20px;
+  vertical-align: 50%;??
+}
+  span { 
+    color: #e0a2bc;  
+   }
+  h2:hover {
+    background: rgb(222, 113, 18);
+  }
+    @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+    .social-icons {
+        text-align: center;
+        width: 48px;
+        height: 48px;
+        float: left;
+        background: #fff;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 4px rgba(231, 73, 73, 0.15), inset 0 0 50px rgba(242, 142, 142, 0.1);
+        border-radius: 24px;
+        margin: 0 10px 10px 0;
+        padding: 6px;
+        color: rgb(175, 29, 29);
+    }
+    .textcols {
+      display: table;
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .textcols-row {
+       display: table-row;
+    }
+    .textcols-item {
+      display: table-cell;	
+      width: 50%;
+      vertical-align: top;
+      padding: 0;
+    }
+    .textcols {
+      overflow: hidden;
+    }
+    .textcols-left {
+      float: left;
+      width: 84%;
+    }
+    .textcols-right {
+      margin-left: 25%;
+    }
